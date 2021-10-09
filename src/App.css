@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 .App {
   text-align: center;
 }
 
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  margin-left: 50px;
+  color: skyblue;
+  
+}
 #Ftrow{
   display: flex;
   flex-direction: row;
@@ -9,6 +18,16 @@
   align-items: center;
   background-color: blueviolet;
 }
+
+#Ftrow label{
+  text-align:center;
+  font-size: 20px;
+  font-family: 'Lato', serif;
+  width: 180px;
+  margin: 10px;
+  color: #000000;
+}
+
 #Sdrow{
   display: flex;
   flex-direction: row;
@@ -16,10 +35,32 @@
   align-items: center;
   background-color: cornflowerblue;
 }
+#Sdro label{
+  text-align:center;
+  font-size: 20px;
+  font-family: 'Lato', serif;
+  width: 180px;
+  margin: 10px;
+  color: #000000;
+}
 #Thirdrow{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: darkcyan;
+}
+#Thirdrow label{
+  text-align:center;
+  font-size: 20px;
+  font-family: 'Lato', serif;
+  width: 180px;
+  margin: 10px;
+  color: #000000;
+}
+#invitation{
+  background-image: url(formulario.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
